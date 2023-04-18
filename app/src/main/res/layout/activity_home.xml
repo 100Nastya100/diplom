@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/root_element"
     android:background="#B1F2F2"
     tools:context=".HomeActivity">
 
@@ -21,23 +22,25 @@
         app:srcCompat="@drawable/splash" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/sign_in_button"
         android:layout_width="207dp"
         android:layout_height="60dp"
         android:layout_marginBottom="8dp"
+        android:onClick="showSignInWindow"
         android:text="Вход"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
         app:backgroundTint="#343178"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/register_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/register_button"
         android:layout_width="207dp"
         android:layout_height="60dp"
         android:layout_marginBottom="196dp"
+        android:onClick="showRegisterWindow"
         android:text="Регистрация"
         android:textColor="#FFFFFF"
         android:textSize="12sp"
