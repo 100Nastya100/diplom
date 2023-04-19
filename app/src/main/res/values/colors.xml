@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#343178</color>
     <color name="black01">#000000</color>
+    <color name="bottom_nav_icon_color_selected">#343178</color>
+    <color name="bottom_nav_icon_color_unselected">#808080</color>
 </resources>

@@ -3,6 +3,7 @@ package com.example.diplom;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.app.DatePickerDialog;
@@ -29,7 +30,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class HomeActivity extends AppCompatActivity {
 
-    Button signInButton, registerButton;
+    AppCompatButton signInButton, registerButton;
 
     ConstraintLayout rootElement;
     FirebaseAuth auth;

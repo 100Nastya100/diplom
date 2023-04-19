@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/profile"
+    android:title="Профиль"
+    android:icon="@drawable/baseline_person_24"
+    />
+    <item
+        android:id="@+id/news"
+        android:title="Новости"
+        android:icon="@drawable/round_newspaper_24"
+        />
+    <item
+        android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"
+        />
+    <item
+        android:id="@+id/records"
+        android:title="Записи"
+        android:icon="@drawable/round_menu_book_24"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="О нас"
+        android:icon="@drawable/baseline_pin_drop_24"
+        />
+</menu>

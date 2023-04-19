@@ -21,8 +21,8 @@
             android:hint="Введите Email"
             android:inputType="textEmailAddress"
             android:text=""
-            android:textColor="@color/black"
-            android:textColorHint="#D4C9C9"
+            android:textColor="@color/black01"
+            android:textColorHint="#80EFE8E8"
             android:textSize="20sp" />
 
         <EditText
@@ -34,8 +34,8 @@
             android:hint="Введите пароль"
             android:inputType="textPassword"
             android:text=""
-            android:textColor="@color/black"
-            android:textColorHint="#D4C9C9"
+            android:textColor="@color/black01"
+            android:textColorHint="#80EFE8E8"
             android:textSize="20sp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
