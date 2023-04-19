@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:cardBackgroundColor="#7BBEBE"
     app:cardElevation="10dp">
 
     <LinearLayout
@@ -21,7 +22,7 @@
             android:inputType="textEmailAddress"
             android:text=""
             android:textColor="@color/black"
-            android:textColorHint="#949191"
+            android:textColorHint="#D4C9C9"
             android:textSize="20sp" />
 
         <EditText
@@ -34,7 +35,7 @@
             android:inputType="textPassword"
             android:text=""
             android:textColor="@color/black"
-            android:textColorHint="#949191"
+            android:textColorHint="#D4C9C9"
             android:textSize="20sp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

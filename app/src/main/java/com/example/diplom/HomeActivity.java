@@ -51,10 +51,10 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void showRegisterWindow(View view) {
-        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
-
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this, R.style.CustomDialogTheme);
         dialog.setTitle("Регистрация");
         dialog.setMessage("Введите ваши данные");
+
 
         LayoutInflater inflater = LayoutInflater.from(this);
         View register_window = inflater.inflate(R.layout.register_window, null);
@@ -132,7 +132,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
     public void showSignInWindow(View view) {
-        AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this, R.style.CustomDialogTheme);
         dialog.setTitle("Вход в аккаунт");
         dialog.setMessage("Введите почту и пароль");
 
