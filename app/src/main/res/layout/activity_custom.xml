@@ -8,9 +8,9 @@
     tools:context=".CustomActivity">
 
     <FrameLayout
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/frame_layout"/>
+        android:layout_height="match_parent" />
 
     <com.google.android.material.bottomappbar.BottomAppBar
         android:id="@+id/bottomAppBar"
@@ -34,7 +34,7 @@
     </com.google.android.material.bottomappbar.BottomAppBar>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
-        android:id="@+id/fabtest"
+        android:id="@+id/fab"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFFFFF"
         android:src="@drawable/baseline_add_24"
